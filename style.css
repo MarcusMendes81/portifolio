@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  background-color: #271d31;
+}
+
+li, a, button{
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #EAEAEA;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.nav_links li a{
+  transition: all 0.5s ease-out 0s;  
+}
+
+.nav_links li a:hover{
+  background-color: #4D48A7;
+}
+
+#home{
+  height: 400px;
+  background-color: #9BC4BC;
+}
+
+#sobre{
+  height: 600px;
+  background-color: #2C363F;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.texto{
+  background-color: black;
+  padding: 30px 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 50px;
+  
+
+}
+
