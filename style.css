@@ -20,6 +20,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+  border-bottom: 2.5px #EAEAEA solid;
 }
 
 .nav_links{
@@ -40,8 +41,9 @@ header{
 }
 
 #home{
+  margin-top: 10%;
   height: 400px;
-  background-color: #9BC4BC;
+  
 }
 
 #sobre{
@@ -54,12 +56,13 @@ html {
 }
 
 .texto{
-  background-color: black;
-  padding: 30px 30px;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 50px;
-  
+    background-color: #9BC4BC;
+    text-align: center;
+    padding: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    border-radius: 15px;
 
 }
 
