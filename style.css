@@ -40,7 +40,7 @@ header{
   background-color: #4D48A7;
 }
 
-#home{
+.home_view{
   margin-top: 10%;
   height: 400px;
   
@@ -63,6 +63,9 @@ html {
     margin-right: 15%;
     width: 70%;
     border-radius: 15px;
+}
 
+.sobre_view{
+  
 }
 
