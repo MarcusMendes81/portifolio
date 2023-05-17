@@ -27,8 +27,11 @@ clearingUp = () =>{
 
 
 
+
 typing();
-//clearingUp();
+clearingUp();
+
+
 
 
 

@@ -5,24 +5,24 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  background-color: #271d31;
+  
 }
 
 li, a, button{
   font-family: "Monteserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   color: #EAEAEA;
   text-decoration: none;
 }
 
 header{
-  
+  background-color: #271d31;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
-  border-bottom: 2.5px #EAEAEA solid;
+  padding: 30px 15%;
+  
 }
 
 .nav_links{
@@ -43,11 +43,10 @@ header{
 }
 
 .home_view{
-  margin: 5%;
-  margin-bottom: -3%;
+  background-color: #271d31;
+
   height: 300px;
-  border: 2px solid #9BC4BC;
-  
+
 }
 
 html {
@@ -55,7 +54,7 @@ html {
 }
 
 .div_home{
-  
+  background-color: #271d31;
     padding: 10%;
     margin-left: 15%;
     margin-right: 15%;
@@ -66,8 +65,7 @@ html {
 }
 
 .sobre_view{
-    margin-top: 5%;
-    border: 2px solid #cf531a;
+    margin-top: -10%;
     position: relative; 
     background-color: #2C363F;
     height: 600px;
@@ -94,13 +92,27 @@ html {
 }
 
 .div_contato{
-  background-color: #BA5624;
    text-align: center;
     margin: 25%;
     margin-top: 0%;
     width: 50%;
     height: 10vw;
     border-radius: 15px;
+}
+
+.projetos_view{
+  height: 800px;
+  width: 100%;
+  background-color: #F4D35E;
+  display: block;
+}
+
+
+#div_projetos_pessoais, #div_projetos_academicos{
+  margin: 0;
+  padding-top: 30vw;
+  border: 1px solid black;
+  width: 100%;
 }
 
 
@@ -118,3 +130,4 @@ img{
   width: 100px;
   height: 100px;
 }
+
