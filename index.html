@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Marcus_Mendes</title>
+    <link rel="stylesheet" href="script.js">
 </head>
-<header>
-    <ul class="nav_links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-    </ul>
-</header>
+
 <body>
+    <header>
+        <ul class="nav_links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre" ="botao">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+        </ul>
+        <button id="botao"> Clique aqui</button>
+    </header>
+
     <section id="home" class="home_view">
-        <div class="texto"> Olá mundo</div>
+        <div class="div_home"> <p id="lorem"></p> </div>
     </section>
-    <section id="sobre" class="sobre_view"></section>
+    <section id="sobre" class="sobre_view">
+        <div class="div_sobre"> Olá mundo</div>
+    </section>
+    <section class="contato_view" id="contato">
+        <div  class="div_contato"></div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
