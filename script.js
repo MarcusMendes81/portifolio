@@ -2,18 +2,33 @@
 var i =0;
 text = "Olá mundo! Seja bem vindo(a) ao meu portifólio simplório! ";
 
-var ref = document.getElementById("botao");
+
+var botao = document.getElementById("botao");
+var lorem = document.getElementById("lorem");
+var botao_home = document.getElementById("bt_home");
 
 
-typing();
 
 
-function typing() {
+typing = () => {
     if(i < text.length){
-        document.getElementById("lorem").innerHTML += text.charAt(i);
+        lorem.innerHTML += text.charAt(i);
         i++
         setTimeout(typing,150);
     }   
 }  
+
+
+clearingUp = () =>{
+    botao.addEventListener( "click", () =>{
+        lorem.innerHTML = "";
+    })
+}
+
+
+
+typing();
+//clearingUp();
+
 
 

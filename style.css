@@ -71,6 +71,7 @@ html {
     position: relative; 
     background-color: #2C363F;
     height: 600px;
+    margin-bottom: 0%;
     
 }
 
@@ -86,11 +87,34 @@ html {
     border-radius: 15px;
 }
 
+.contato_view{
+  margin-top: 0%;
+  background-color: #BA5624;
+  height: 20vw;
+}
+
+.div_contato{
+  background-color: #BA5624;
+   text-align: center;
+    margin: 25%;
+    margin-top: 0%;
+    width: 50%;
+    height: 10vw;
+    border-radius: 15px;
+}
 
 
 #lorem{
   color: beige;
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
-  
+}
+
+img{
+  display: inline-flexbox;
+  background-color: #BA5624;
+  justify-content: space-around;
+  padding: 10px 10px;
+  width: 100px;
+  height: 100px;
 }
