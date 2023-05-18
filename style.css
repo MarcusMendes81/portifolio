@@ -100,14 +100,14 @@ header{
     width: 70%;
     border-radius: 15px;
     margin-bottom: 0%;
-    border: 1px solid #0ff508;
+
   
 }
 
 .sobre_view{
     display: flex;
     margin-top: -20%;
-    border: 1px solid #f57b08;
+
     height: 600px;
     margin-bottom: 0%;
 }
@@ -122,7 +122,7 @@ header{
     width: 50%;
     height: 30vw;
     border-radius: 15px;
-    border: 1px solid #0ff508;
+
     line-height: 30px;
 }
 
@@ -131,7 +131,6 @@ header{
     margin-top: 10%;
     width: 30%;
     height: 30vw;
-    border: 1px solid #0ff508;
 }
 
 
@@ -148,16 +147,16 @@ header{
 
    text-align: center;
     margin: 25%;
-    margin-top: 10%;
+    margin-top: 15%;
     padding-top: 1vw;
     width: 50%;
     height: 10vw;
     border-radius: 15px;
-    border: 1px solid #0ff508;
+    
 }
 
 .projetos_view{
-  height: 800px;
+  height: 1200px;
   width: 100%;
   border: 1px solid #f57b08;
   display: block;
@@ -166,10 +165,11 @@ header{
 
 #div_projetos_pessoais, #div_projetos_academicos{
   margin: 0;
-  padding-top: 30vw;
+
+  padding-top: 40vw;
   border: 1px solid black;
   width: 100%;
-  border: 1px solid #0ff508;
+
 }
 
 
