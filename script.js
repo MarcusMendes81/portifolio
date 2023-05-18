@@ -8,13 +8,12 @@ var lorem = document.getElementById("lorem");
 var botao_home = document.getElementById("bt_home");
 
 
-
-
 typing = () => {
     if(i < text.length){
+      
         lorem.innerHTML += text.charAt(i);
         i++
-        setTimeout(typing,150);
+        setTimeout(typing,100);
     }   
 }  
 
@@ -29,7 +28,7 @@ clearingUp = () =>{
 
 
 typing();
-clearingUp();
+//clearingUp();
 
 
 
