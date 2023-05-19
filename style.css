@@ -86,7 +86,7 @@ header{
 
 .home_view{
   background-color: #271d31;
-  height: 750px;
+  height: 60vw;
 
 }
 
@@ -108,7 +108,7 @@ header{
     display: flex;
     margin-top: -20%;
 
-    height: 600px;
+    height: 100vw;
     margin-bottom: 0%;
 }
 
@@ -141,6 +141,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 60px 15%;
+  height: 100vw;
 }
 
 .div_contato{
@@ -155,21 +156,39 @@ header{
     
 }
 
-.projetos_view{
-  height: 1200px;
+
+.projetos{
+  display: flex;
+  border:2px solid #0ff508;
+  display: flex;
   width: 100%;
-  border: 1px solid #f57b08;
-  display: block;
+  height: 100vw;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
-#div_projetos_pessoais, #div_projetos_academicos{
-  margin: 0;
 
-  padding-top: 40vw;
-  border: 1px solid black;
-  width: 100%;
-
+.projetos_academicos{
+  display: flex;
+  overflow: hidden;
+  border:2px solid #0ff508;
+  width: 900px;
+  height: 500px;
+  margin: 15%;  
+  
+}
+.conteudos{
+  flex: 0 0 100%;
+  transition: transform 0.5s ease-in-out;
+  border:2px solid #0ff508;
+  width: 500px;
+  height: 500px;
+  margin: 0%;
+}
+.voltar,
+.proximo {
+  margin-top: 10px;
 }
 
 
