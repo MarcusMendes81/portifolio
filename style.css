@@ -20,18 +20,31 @@ li, a{
   text-decoration: none;
 }
 
+.text-primary {
+  color: #EAEAEA !important;
+}
+
+.navbar a{
+  font-family: "Monteserrat", sans-serif !important;
+  font-size: 26px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
 header{
-  overflow: hidden;
   position: fixed;
-  padding-top: 0%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 15%;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-left: 2.5%;
   width: 100%;
-  height: auto;
+  padding-top: 2.5%;
+  
+}
+
+.contato{
+  color: #EAEAEA;
+}
+
+.container{
+  color: #0ff508;
 }
 
 .nav_links{
@@ -68,6 +81,10 @@ header{
   border-radius: 2.5px;
 }
 
+.dropdown{
+  padding: 0%;
+  margin: 0%;
+}
 
 .dropdown-projetos:hover{
   color: #0ff508;
@@ -122,7 +139,7 @@ header{
     width: 50%;
     height: 30vw;
     border-radius: 15px;
-
+    font-size: 24px;
     line-height: 30px;
 }
 
@@ -159,43 +176,28 @@ header{
 
 .projetos{
   display: flex;
-  border:2px solid #0ff508;
-  display: flex;
   width: 100%;
-  height: 100vw;
+  height: 70vw;
   justify-content: space-between;
   align-items: center;
 }
 
 
-
 .projetos_academicos{
+  margin: 20px;
   display: flex;
-  overflow: hidden;
-  border:2px solid #0ff508;
+  padding-top: 10%;
   width: 900px;
-  height: 500px;
-  margin: 15%;  
+  height: 300px;
+  margin: 15%;
+  font-size: 30px !important;  
   
 }
-.conteudos{
-  flex: 0 0 100%;
-  transition: transform 0.5s ease-in-out;
-  border:2px solid #0ff508;
-  width: 500px;
-  height: 500px;
-  margin: 0%;
-}
-.voltar,
-.proximo {
-  margin-top: 10px;
-}
-
 
 #lorem{
   color: beige;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 16px;
+  font-size: 26px;
 }
 
 img{
@@ -213,5 +215,4 @@ img{
   width: 21.5vw;
   height: 25vw;
   padding: 10px;
-
 }

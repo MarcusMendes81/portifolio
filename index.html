@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
     <title>Marcus_Mendes</title>
     <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <ul class="nav_links">
-            <li><a href="#home" id="bt_home">Home</a></li>
-            <li><a href="#sobre" id="botao">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-        <div class="dropdown">
-            <a href="" class="dropdown-projetos">Projetos</a>
-            <div class="dropdown-content">
-                <a href="#p_a" >Academicos</a>
-                <a href="#p_p" >Pessoais</a>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-light " >
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active" >
+                  <a class="nav-link text-primary" href="#home" >Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-primary" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item" >
+                  <a class="nav-link  text-primary" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projetos
+                  </a>
+                  <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="#p_a">Academicos</a>
+                    <a class="dropdown-item" href="#p_p">Pessoais</a>
+                  </div>
+                </li>
+              </ul>
+          </nav>
         </div>
     </header>
 
@@ -46,19 +60,53 @@
     </section>
     <section class="projetos">  
         <div class="projetos_academicos" id="p_a">
-            <div class="conteudos"> Olá</div>
-            <div class="conteudos"> AAAAAAAAAAAAAAA</div>
-            <div class="conteudos">BBBBBBBBBBBBBBBBBBBBB</div>
-            <div class="conteudos">Bem</div>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner mx-auto">
+                  <div class="carousel-item active">
+                    <div class="d-block w-100"  alt="Primeiro Slide"> 
+                        Participei do projeto de extensão tecnologica - TEMA: Desenvolvendo Filas Inteligentes no CISAM
+                        Aqui tive uma experiência incrivel, onde pude entender como funciona o processo de marcação de cirurgias
+                        eletivas no hospital maternidade CISAM. Além disso, pude aprender sobre metodologias ágeis para ajudar no
+                        processo de desenvolvimento do produto. Por fim, conseguimos desenvolver um protótipo de alta fidelidade.
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-block w-100"  alt="Segundo Slide">Participei do Projeto de extensão - TEMA: Aplicação de conhecimentos matemáticos associados a Drones à estudantes de 9° ano de escola pública. 
+                        O objetivo desse projeto era trazer o conhecimento matemático ensinado aos alunos do 9° ano, para o contexto dos Drones.
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-block w-100"  alt="Terceiro Slide"> Estou participando do Projeto de extensão - TEMA: Cartografia Rápida para Prevenção de Riscos, Gestão de Crises e Reconstrução. 
+                        É um projeto importantíssimo para mapearmos as zonas de risco do município de Recife-PE e buscar solulções tecnologicas  que possam resolver ou diminuir os problemas influenciados
+                        pelos desastres naturais.
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>      
+            
         </div>
-        <button class="voltar">Anterior</button>
-        <button class="proximo">Próximo</button>
     </section>
     <section class="projetos">
         <div class="projetos_pessoais"  id="p_p">
             EM BREVE...
         </div>  
     </section>
+    <style>
+        .nav-link{
+            color:white;
+        }
+    </style>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
