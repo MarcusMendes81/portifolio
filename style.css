@@ -64,42 +64,6 @@ header{
   color: #0ff508;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #271d31;
-  min-width: 100px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: EAEAEA;
-  padding: 10px 12px;
-  text-decoration: none;
-  display: block;
-  font-size: 12px;
-  border-radius: 2.5px;
-}
-
-.dropdown{
-  padding: 0%;
-  margin: 0%;
-}
-
-.dropdown-projetos:hover{
-  color: #0ff508;
-  transition: all 0.5s ease-out 0s;  
-}
-
-.dropdown-content a:hover {
-  background-color: #5a4d68;
-  color: #0ff508;
-  transition: all 0.5s ease-out 0s; 
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 .home_view{
   background-color: #271d31;
@@ -162,7 +126,6 @@ header{
 }
 
 .div_contato{
-
    text-align: center;
     margin: 25%;
     margin-top: 15%;
@@ -183,16 +146,21 @@ header{
 }
 
 
-.projetos_academicos{
+.projetos_academicos, .projetos_pessoais{
   margin: 20px;
   display: flex;
   padding-top: 10%;
-  width: 900px;
+  width: 1200px;
   height: 300px;
   margin: 15%;
   font-size: 30px !important;  
   
 }
+.carousel-item{
+  padding-left: 130px;
+  padding-right: 130px
+}
+
 
 #lorem{
   color: beige;
